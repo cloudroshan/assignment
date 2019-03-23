@@ -1,0 +1,28 @@
+.site-btn{
+    position: relative;
+    a,input{
+        background: none;
+        cursor: pointer;
+        min-width: 10rem;
+        padding: .7rem 1.5rem .7rem 0;
+        color: $sub-heading-color;
+        border-radius: 5px;
+        border: 1px solid $border-clr;
+        @include media(xs){
+            min-width: 30rem;
+            padding-right: 0;
+        }
+        &:hover{
+            background: #d7d7d7;
+            transition: 1s;
+        }
+    }
+    .fas{
+        position: absolute;
+        right: 30%;
+        top: 50%;
+        transform: translateY(-50%);
+        color: $color-red;
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,241 @@
+.clearfix:after {
+  clear: both;
+  display: block;
+  content: ''; }
+
+.bg-red {
+  background: #ff5a5a; }
+
+.bg-light-clr {
+  background: #eeeeee; }
+
+.brdr-bottom {
+  border-bottom: 1px solid #b0b0b0; }
+
+.i-frame {
+  width: 100%;
+  height: 300px; }
+  @media (min-width: 576px) {
+    .i-frame {
+      height: 500px; } }
+
+.border-top-red {
+  border-top: 3px solid #c3181f; }
+
+html body {
+  font-family: hirakakupro-w3;
+  margin: 0;
+  font-size: 16px; }
+  html body a {
+    text-decoration: none; }
+    html body a:hover {
+      text-decoration: none; }
+  html body li {
+    list-style: none; }
+
+@media only screen and (max-width: 667px) {
+  .nav-toggler {
+    position: absolute;
+    right: 15px;
+    top: 40px;
+    padding: .5rem .7rem;
+    border-radius: 7px; }
+    .nav-toggler .fas {
+      font-size: 1.3rem; }
+
+  .header-nav-section .site-navigation-bar {
+    position: fixed;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    height: 100%;
+    width: 96%;
+    top: 0;
+    left: -100%;
+    z-index: 100;
+    transition: 1s; }
+    .header-nav-section .site-navigation-bar ul {
+      margin: 0;
+      padding: 1rem;
+      text-align: center; }
+      .header-nav-section .site-navigation-bar ul li {
+        margin-bottom: 1rem;
+        padding-bottom: .5rem;
+        border-bottom: 1px solid #fff; }
+        .header-nav-section .site-navigation-bar ul li a {
+          color: #fff;
+          font-size: .9rem; } }
+@media only screen and (min-width: 668px) {
+  .nav-toggler {
+    display: none; }
+
+  .header-nav-section div ul {
+    margin: 0;
+    padding: 0; }
+    .header-nav-section div ul li {
+      float: left;
+      padding-bottom: 5px; }
+      .header-nav-section div ul li.active {
+        border-bottom: 2px solid #c3181f;
+        transition: 1s; }
+        .header-nav-section div ul li.active a {
+          color: #c3181f; }
+      .header-nav-section div ul li a {
+        color: #333333;
+        border-right: 1px solid #b0b0b0;
+        padding: 0 30px;
+        font-size: .8rem; }
+        .header-nav-section div ul li a:hover {
+          color: #c3181f; }
+  .header-nav-section .close-nav-btn {
+    display: none; } }
+.title-with-red-line {
+  position: relative;
+  color: #333333;
+  font-size: 1.3rem;
+  border-bottom: 2px solid #e4e4e4; }
+  .title-with-red-line:after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    background: #c3181f;
+    height: 2px;
+    width: 15%; }
+
+.site-btn {
+  position: relative; }
+  .site-btn a, .site-btn input {
+    background: none;
+    cursor: pointer;
+    min-width: 10rem;
+    padding: .7rem 1.5rem .7rem 0;
+    color: #333333;
+    border-radius: 5px;
+    border: 1px solid #b0b0b0; }
+    @media (min-width: 576px) {
+      .site-btn a, .site-btn input {
+        min-width: 30rem;
+        padding-right: 0; } }
+    .site-btn a:hover, .site-btn input:hover {
+      background: #d7d7d7;
+      transition: 1s; }
+  .site-btn .fas {
+    position: absolute;
+    right: 30%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #c3181f;
+    font-size: 1.5rem; }
+
+.page-title h2 {
+  position: relative;
+  font-size: 1.6rem;
+  font-family: hirakakupro-w6; }
+  .page-title h2:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #c3181f;
+    height: 3px;
+    width: 20%; }
+
+.page-map {
+  background: #eeeeee;
+  padding-top: .1rem;
+  padding-top: .1rem; }
+  .page-map .breadcrumb-item {
+    font-size: .7rem; }
+    .page-map .breadcrumb-item + .breadcrumb-item::before {
+      content: '>';
+      padding-right: .5rem;
+      padding-left: .5rem; }
+
+.header-top-section .site-logo a {
+  color: #000000;
+  font-size: 1.6rem;
+  font-family: hirakakupro-w6; }
+.header-top-section .contact-us-btn {
+  position: relative;
+  color: #333333;
+  border-radius: 5px;
+  font-size: .7rem;
+  padding: .3rem 1.4rem;
+  margin-top: 1rem;
+  display: inline-block; }
+  @media (min-width: 576px) {
+    .header-top-section .contact-us-btn {
+      margin-top: 0; } }
+  .header-top-section .contact-us-btn .right-caret {
+    position: absolute;
+    top: 50.5%;
+    right: 8px;
+    font-size: .8rem;
+    transform: translateY(-50%);
+    color: #c3181f; }
+
+.banner {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 330px; }
+  @media (min-width: 576px) {
+    .banner {
+      height: 330px; } }
+  .banner .banner-title {
+    position: absolute;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 2px 3px #000000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%); }
+    @media (min-width: 576px) {
+      .banner .banner-title {
+        height: 430px;
+        font-size: 1.7rem; } }
+
+.footer {
+  background: #eeeeee;
+  color: #333333;
+  font-size: .7rem;
+  font-weight: bold; }
+
+.scroll-top .move-to-top {
+  padding: 10px;
+  border: 1px solid #b0b0b0;
+  border-radius: 5px; }
+  .scroll-top .move-to-top:hover {
+    background: #000;
+    transition: 1s; }
+
+.home-section .site-btn {
+  margin: 5rem 0; }
+.home-section .company-profile .profile-sub-heading {
+  font-size: 1.3rem;
+  font-family: hirakakupro-w6; }
+  @media (min-width: 576px) {
+    .home-section .company-profile .profile-sub-heading {
+      font-size: 1.5rem; } }
+.home-section .company-profile p {
+  padding: 0;
+  text-align: justify;
+  font-size: .9rem;
+  margin-bottom: 1.7rem;
+  color: #333333; }
+.home-section .company-profile .profile-authorization small {
+  font-size: .8rem; }
+.home-section .company-profile .profile-authorization strong {
+  font-size: 1.3rem;
+  letter-spacing: 3px; }
+
+.contact-section ::placeholder {
+  color: #828282; }
+.contact-section .feild-required {
+  border-radius: 5px; }
+.contact-section .site-btn {
+  margin: 5rem 0; }
+
+/*# sourceMappingURL=style.css.map */

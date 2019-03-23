@@ -1,0 +1,39 @@
+
+@media only screen and (min-width: 668px){
+    
+    .nav-toggler{
+        display: none;
+    }
+    .header-nav-section{
+        div{
+            ul{
+                margin: 0;
+                padding: 0;
+                li{
+                    float: left;
+                    padding-bottom: 5px;
+                    &.active{
+                        border-bottom: 2px solid $color-red;
+                        transition: 1s;
+                        a{
+                            color: $color-red;
+                        }
+                    }
+                    a{
+                        color: $sub-heading-color;
+                        border-right: 1px solid $border-clr;
+                        padding: 0 30px;
+                        font-size: .8rem;
+                        &:hover{
+                            color: $color-red;
+                        }
+                        
+                    }
+                }
+            }
+        }
+        .close-nav-btn{
+            display: none;
+        }
+    }
+}

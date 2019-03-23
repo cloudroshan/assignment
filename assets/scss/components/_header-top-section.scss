@@ -1,0 +1,29 @@
+.header-top-section{
+    .site-logo{
+        a{
+            color: $site-heading-color;
+            font-size: 1.6rem;
+            font-family: hirakakupro-w6;
+        }
+    }
+    .contact-us-btn{
+        position: relative;
+        color: $sub-heading-color;
+        border-radius: 5px;
+        font-size: .7rem;
+        padding: .3rem 1.4rem;
+        margin-top: 1rem;
+        display: inline-block;
+        @include media(xs){
+            margin-top: 0;
+        }
+        .right-caret{
+            position: absolute;
+            top: 50.5%;
+            right: 8px;
+            font-size: .8rem;
+            transform: translateY(-50%);
+            color: $color-red;
+        }
+    }
+}

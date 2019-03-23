@@ -1,0 +1,12 @@
+$placeholder-clr: #828282;
+.contact-section{
+    ::placeholder{
+        color: $placeholder-clr;
+    }
+    .feild-required{
+        border-radius: 5px;
+    }
+    .site-btn{
+        margin: 5rem 0;
+    }
+}

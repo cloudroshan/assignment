@@ -1,0 +1,16 @@
+$clr-light-brdr: #e4e4e4;
+.title-with-red-line{
+    position: relative;
+    color: $sub-heading-color;
+    font-size: 1.3rem;
+    border-bottom: 2px solid $clr-light-brdr;
+    &:after{
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        background: $color-red;
+        height: 2px;
+        width: 15%;
+    }
+}

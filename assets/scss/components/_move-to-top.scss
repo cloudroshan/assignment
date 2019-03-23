@@ -1,0 +1,12 @@
+.scroll-top{
+    
+    .move-to-top{
+        padding: 10px;
+        border: 1px solid $border-clr;
+        border-radius: 5px;
+        &:hover{
+            background: #000;
+            transition: 1s;
+        }
+    }
+}

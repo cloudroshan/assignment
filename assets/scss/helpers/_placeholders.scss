@@ -1,0 +1,11 @@
+%reset-ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+%border-top-red{
+    border-top: 3px solid $color-red;
+}
+%list-border-bottom-red{
+    border-bottom: 2px solid $color-red;
+}

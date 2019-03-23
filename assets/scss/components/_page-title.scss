@@ -1,0 +1,17 @@
+.page-title{
+    h2{
+        position: relative;
+        font-size: 1.6rem;
+        font-family: hirakakupro-w6;
+        &:after{
+            content: '';
+            position: absolute;
+            bottom:-10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: $color-red;
+            height: 3px;
+            width: 20%;
+        }
+    }
+}

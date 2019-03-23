@@ -91,8 +91,10 @@
                         </div>
                     </div>
                     <div class="site-btn text-center">
-                        <input type="submit" name="submit" class="d-inline-block font-weight-bold" value="確認画面へ" href="#">
-                        <i class="fas fa-angle-right right"></i>
+                        <button type="submit" name="submit" class="d-inline-block font-weight-bold"  href="#">
+                            確認画面へ
+                            <i class="fas fa-angle-right right"></i>
+                        </button>
                     </div>
                 </div>
             </form>

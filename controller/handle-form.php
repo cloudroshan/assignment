@@ -9,10 +9,7 @@
         $message = $_POST['message'];
         $to = 'aikido763@gmail.com';
 
-        
-
-
-
+        echo $name;
 
     }
 ?>

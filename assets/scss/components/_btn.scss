@@ -1,6 +1,6 @@
 .site-btn{
-    position: relative;
-    a,input{
+    a,button{
+        position: relative;
         background: none;
         cursor: pointer;
         min-width: 10rem;
@@ -19,7 +19,7 @@
     }
     .fas{
         position: absolute;
-        right: 30%;
+        right: 10px;
         top: 50%;
         transform: translateY(-50%);
         color: $color-red;

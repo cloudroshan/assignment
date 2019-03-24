@@ -13,7 +13,7 @@
     </div><!-- page map ends -->
 
     <div class="container">
-        <div class="page-title text-center my-5">
+        <div class="page-title text-center my-4 my-sm-5">
             <h2 class="pb-3">お問い合わせ</h2>
         </div>
         <p class="text-center mb-5">
@@ -22,14 +22,14 @@
             内容をご確認いただき、個人情報の取扱いに同意いただいた上で、お問い合わせください。
         </p>
 
-        <div class="contact-form">
+        <div class="contact-form mb-1 mb-sm-0">
             <form action="controller/handle-form.php" method="POST">
                 <div class="container">
                     <div class="row brdr-bottom mb-2 mb-sm-0">
                         <div class="col-sm-4 bg-light-clr py-3">
                             <div class="d-flex justify-content-between align-items-center mt-1 mt-sm-3">
                                 お名前
-                                <span class="feild-required bg-red text-white py-1 px-2">必須</span>
+                                <span class="feild-required bg-red text-white">必須</span>
                             </div>
                         </div>
                         <div class="col-sm-6 py-3">
@@ -42,7 +42,7 @@
                         <div class="col-sm-4 bg-light-clr py-3">
                             <div class="d-flex justify-content-between align-items-center mt-1 mt-sm-3">
                                 御社名
-                                <span class="feild-required bg-red text-white py-1 px-2">必須</span>
+                                <span class="feild-required bg-red text-white">必須</span>
                             </div>
                         </div>
                         <div class="col-sm-6 py-3">
@@ -55,7 +55,7 @@
                         <div class="col-sm-4 bg-light-clr py-3">
                             <div class="d-flex justify-content-between align-items-center mt-1 mt-sm-3">
                                 メールアドレス
-                                <span class="feild-required bg-red text-white py-1 px-2">必須</span>
+                                <span class="feild-required bg-red text-white">必須</span>
                             </div>
                         </div>
                         <div class="col-sm-6 py-3">
@@ -68,7 +68,7 @@
                         <div class="col-sm-4 bg-light-clr py-3">
                             <div class="d-flex justify-content-between align-items-center mt-1 mt-sm-3">
                                 電話番号
-                                <span class="feild-required bg-red text-white py-1 px-2">必須</span>
+                                <span class="feild-required bg-red text-white">必須</span>
                             </div>
                         </div>
                         <div class="col-sm-6 py-3">
@@ -77,11 +77,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row brdr-bottom">
+                    <div class="row">
                         <div class="col-sm-4 bg-light-clr py-3">
                             <div class="d-flex justify-content-between align-items-center mt-1 mt-sm-3">
                                 お問い合わせ内容
-                                <span class="feild-required bg-red text-white py-1 px-2">必須</span>
+                                <span class="feild-required bg-red text-white">必須</span>
                             </div>
                         </div>
                         <div class="col-sm-8 py-3">
@@ -91,7 +91,7 @@
                         </div>
                     </div>
                     <div class="site-btn text-center">
-                        <button type="submit" name="submit" class="d-inline-block font-weight-bold"  href="#">
+                        <button type="submit" name="submit" class="d-inline-block font-weight-bold">
                             確認画面へ
                             <i class="fas fa-angle-right right"></i>
                         </button>

@@ -4,9 +4,22 @@ $placeholder-clr: #828282;
         color: $placeholder-clr;
     }
     .feild-required{
+        font-size: .8rem;
         border-radius: 5px;
+        padding: .2rem .5rem;
     }
     .site-btn{
-        margin: 5rem 0;
+        margin: 3rem 0;
+        @include media(xs){
+            margin: 5rem 0;
+        }
+    }
+    .contact-form{
+        border: 2px solid $footer-bg;
+        box-shadow: 0 0 5px $border-clr;
+        @include media(xs){
+            border: none;
+            box-shadow: none;
+        }
     }
 }

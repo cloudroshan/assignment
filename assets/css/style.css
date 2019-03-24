@@ -132,12 +132,15 @@ html body {
   .page-title h2:after {
     content: '';
     position: absolute;
-    bottom: -10px;
+    bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
     background: #c3181f;
     height: 3px;
     width: 20%; }
+    @media (min-width: 576px) {
+      .page-title h2:after {
+        bottom: -10px; } }
 
 .page-map {
   background: #eeeeee;
@@ -230,11 +233,35 @@ html body {
   font-size: 1.3rem;
   letter-spacing: 3px; }
 
+.profile-wrapper div {
+  font-size: .9rem; }
+  @media (min-width: 576px) {
+    .profile-wrapper div {
+      font-size: 1rem; } }
+
+.view-map-btn a {
+  font-size: .9rem;
+  color: #333333;
+  padding: .3rem 2rem;
+  border-radius: 5px; }
+
 .contact-section ::placeholder {
   color: #828282; }
 .contact-section .feild-required {
-  border-radius: 5px; }
+  font-size: .8rem;
+  border-radius: 5px;
+  padding: .2rem .5rem; }
 .contact-section .site-btn {
-  margin: 5rem 0; }
+  margin: 3rem 0; }
+  @media (min-width: 576px) {
+    .contact-section .site-btn {
+      margin: 5rem 0; } }
+.contact-section .contact-form {
+  border: 2px solid #eeeeee;
+  box-shadow: 0 0 5px #b0b0b0; }
+  @media (min-width: 576px) {
+    .contact-section .contact-form {
+      border: none;
+      box-shadow: none; } }
 
 /*# sourceMappingURL=style.css.map */

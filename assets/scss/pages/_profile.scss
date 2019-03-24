@@ -1,0 +1,16 @@
+.profile-wrapper{
+    div{
+        font-size: .9rem;
+        @include media(xs){
+            font-size: 1rem;
+        }
+    }
+}
+.view-map-btn{
+    a{
+        font-size: .9rem;
+        color: $sub-heading-color;
+        padding: .3rem 2rem;
+        border-radius: 5px;
+    }
+}

@@ -6,12 +6,15 @@
         &:after{
             content: '';
             position: absolute;
-            bottom:-10px;
+            bottom:0px;
             left: 50%;
             transform: translateX(-50%);
             background: $color-red;
             height: 3px;
             width: 20%;
+            @include media(xs){
+                bottom:-10px;
+            }
         }
     }
 }

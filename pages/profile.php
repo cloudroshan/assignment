@@ -1,6 +1,46 @@
-<?php 
-    include 'header.php';
-?>
+    <?php 
+        include 'header.php';
+    ?>
+        <header class="border-top-red pt-4">
+            <div class="container">
+                <section class="header-top-section d-sm-flex justify-content-between align-items-center mb-4 mb-sm-2">
+                    <div class="site-logo  font-weight-bold">
+                        <a href="index.php">
+                            <img class="d-block d-sm-inline" src="../assets/images/logo.png" alt="logo">
+                            アドバンス株式会社
+                        </a>
+                    </div>
+                    
+                    <a class="contact-us-btn border" href="contact.php">
+                        お問い合わせ 
+                        <i class="fas fa-caret-right right-caret"></i>
+                    </a>
+                    
+                </section>
+                <a class="nav-toggler border" href="#">
+                    <i class="fas fa-bars text-dark"></i> 
+                </a>
+                <section class="header-nav-section d-sm-flex justify-content-center">
+                   <div class="site-navigation-bar">
+                       <ul class="clearfix">
+                           <li ><a href="../index.php">ホーム</a></li>
+                           <li class="active"><a  href="company.php">会社案内</a></li>
+                           <li><a  href="#">高性能防水ガラリ</a></li>
+                           <li><a class="border-right-0 pr-0" href="#">資料ダウンロード</a></li>
+                           <a class="btn btn-danger close-nav-btn mt-4" href="#">Close</a>
+                       </ul>
+                   </div>
+                </section>
+            </div>
+            
+        </header><!-- header Ends -->
+
+
+
+
+
+
+
 <div class="profile-section">
     <div class="page-map">
         <div class="container">
@@ -33,6 +73,10 @@
                     </div>
                     <div class="col-8 py-3">
                         沖縄県中城村字泊433番地
+                        <a class="to-map border rounded text-dark py-1 px-3 mt-1 mt-sm-0 ml-sm-5" href="#">
+                            地図はこちら
+                            <i class="fas fa-caret-down text-dark"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="row brdr-bottom">

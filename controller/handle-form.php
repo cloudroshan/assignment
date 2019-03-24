@@ -39,11 +39,11 @@
             //Content
             $mail->isHTML(true);                             
             $mail->Subject = 'Contact Company';
-            $mail->Body    = 'your name is ' . $name;
+            $mail->Body    = 'Hello! Got my mail';
 
             if($mail->send()) {
-                echo 'Message has been sent';
-                // header("Location:../index.php");
+                    header("Refresh: 2; url=../pages/company.php");
+                    echo 'Mail has ben sent successfully!!';
             }
 
         }catch (Exception $e) {

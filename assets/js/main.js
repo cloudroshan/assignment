@@ -1,19 +1,14 @@
 class siteJS{
     constructor(){
         this.scrollToTop();
-        this.makeNavActive();
         this.toggleNav();
+        this.moveToMap();
     }
 
     scrollToTop(){
         $(".move-to-top").click(function(e) {
             $("html, body").animate({ scrollTop: 0 }, "slow");
             return false;
-        });
-    }
-    makeNavActive(){
-        $('.site-navigation-bar li a').on('click', function(e){
-            $(e.target).parent().addClass('active').siblings().removeClass('active');
         });
     }
     toggleNav(){
@@ -30,10 +25,16 @@ class siteJS{
             e.preventDefault();
             $('.site-navigation-bar').css({
                 "left": '-100%',
-
             });
         });
     }
+    moveToMap(){
+        $('.to-map').on('click', function(e){
+            e.preventDefault();
+            window.scrollBy(0,1000);
+        });
+    }
+    
 
 
 }

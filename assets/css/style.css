@@ -233,6 +233,9 @@ html body {
   font-size: 1.3rem;
   letter-spacing: 3px; }
 
+.home-page-content h1 {
+  color: #9b7777; }
+
 .profile-wrapper div {
   font-size: .9rem; }
   @media (min-width: 576px) {
@@ -244,6 +247,9 @@ html body {
   color: #333333;
   padding: .3rem 2rem;
   border-radius: 5px; }
+
+.to-map {
+  font-size: .7rem; }
 
 .contact-section ::placeholder {
   color: #828282; }

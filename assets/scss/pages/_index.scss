@@ -1,34 +1,6 @@
-.home-section{
-    .site-btn{
-        margin: 5rem 0;
-    }
-    .company-profile{
-        .profile-sub-heading{
-            font-size: 1.3rem;
-            font-family: hirakakupro-w6;
-            @include media(xs){
-                font-size: 1.5rem;
-            }
-        }
-        
-        p{
-            padding: 0;
-            text-align: justify;
-            font-size: .9rem;
-            margin-bottom: 1.7rem;
-            color: $sub-heading-color;
-        }
-        .profile-authorization{
-            small{
-                font-size: .8rem;
-            }
-            strong{
-                font-size: 1.3rem;
-                letter-spacing: 3px;
-            }
-        }
+$homepahe-heading-color: #9b7777;
+.home-page-content{
+    h1{
+        color: $homepahe-heading-color;
     }
 }
-
-
-
